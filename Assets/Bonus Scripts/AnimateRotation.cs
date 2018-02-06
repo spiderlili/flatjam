@@ -18,10 +18,9 @@ public class AnimateRotation : MonoBehaviour
     private float _prevTurnSpeed;
     private float _prevTurnDuration;
 
-    /// <summary>
-    /// update timings so that loop duration, frame duration, and frame count
-    /// are consistent with each other, based on which have just changed
-    /// </summary>
+    // update timings so that loop duration, frame duration, and frame count
+    // are consistent with each other, based on which have just changed
+
     private void MakeTimingsConsistent()
     {
         if (_prevTurnSpeed != turnSpeed)
