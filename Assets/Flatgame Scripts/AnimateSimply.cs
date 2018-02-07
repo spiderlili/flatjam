@@ -7,10 +7,10 @@ using System.Collections.Generic;
 
 using Random = UnityEngine.Random;
 
-/// <summary>
-/// animate by treating all children of this object as a frame of an animation,
-/// turning them off and on in sequence, ensuring only one is ever on at a time
-/// </summary>
+
+// animate by treating all children of this object as a frame of an animation,
+// turning them off and on in sequence, ensuring only one is ever on at a time
+
 [ExecuteInEditMode]
 [DisallowMultipleComponent]
 public class AnimateSimply : MonoBehaviour 
